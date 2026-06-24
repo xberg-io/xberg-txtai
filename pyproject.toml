@@ -49,12 +49,12 @@ dependencies = [
   "kreuzberg>=4.8",
 ]
 optional-dependencies.txtai = [ "txtai>=9.7" ]
-urls.Changelog = "https://github.com/kreuzberg-dev/kreuzberg-txtai/blob/main/CHANGELOG.md"
+urls.Changelog = "https://github.com/xberg-io/kreuzberg-txtai/blob/main/CHANGELOG.md"
 urls.Documentation = "https://docs.kreuzberg.dev"
-urls.Homepage = "https://github.com/kreuzberg-dev/kreuzberg-txtai"
-urls.Issues = "https://github.com/kreuzberg-dev/kreuzberg-txtai/issues"
-urls.Kreuzberg = "https://github.com/kreuzberg-dev/kreuzberg"
-urls.Repository = "https://github.com/kreuzberg-dev/kreuzberg-txtai"
+urls.Homepage = "https://github.com/xberg-io/kreuzberg-txtai"
+urls.Issues = "https://github.com/xberg-io/kreuzberg-txtai/issues"
+urls.Kreuzberg = "https://github.com/xberg-io/kreuzberg"
+urls.Repository = "https://github.com/xberg-io/kreuzberg-txtai"
 
 [dependency-groups]
 dev = [

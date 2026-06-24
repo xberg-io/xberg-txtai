@@ -10,14 +10,14 @@
   <a href="https://pypi.org/project/kreuzberg-txtai/">
     <img src="https://img.shields.io/pypi/dm/kreuzberg-txtai" alt="Downloads">
   </a>
-  <a href="https://github.com/kreuzberg-dev/kreuzberg-txtai/actions/workflows/ci.yaml">
-    <img src="https://github.com/kreuzberg-dev/kreuzberg-txtai/actions/workflows/ci.yaml/badge.svg" alt="CI">
+  <a href="https://github.com/xberg-io/kreuzberg-txtai/actions/workflows/ci.yaml">
+    <img src="https://github.com/xberg-io/kreuzberg-txtai/actions/workflows/ci.yaml/badge.svg" alt="CI">
   </a>
-  <a href="https://github.com/kreuzberg-dev/kreuzberg-txtai/blob/main/LICENSE">
+  <a href="https://github.com/xberg-io/kreuzberg-txtai/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
   </a>
-  <a href="https://github.com/kreuzberg-dev/kreuzberg">
-    <img src="https://img.shields.io/github/stars/kreuzberg-dev/kreuzberg?style=flat&label=Kreuzberg&color=007ec6" alt="Kreuzberg">
+  <a href="https://github.com/xberg-io/kreuzberg">
+    <img src="https://img.shields.io/github/stars/xberg-io/kreuzberg?style=flat&label=Kreuzberg&color=007ec6" alt="Kreuzberg">
   </a>
   <a href="https://docs.kreuzberg.dev">
     <img src="https://img.shields.io/badge/docs-kreuzberg.dev-blue" alt="Documentation">
@@ -32,7 +32,7 @@
   </a>
 </div>
 
-A [Kreuzberg](https://github.com/kreuzberg-dev/kreuzberg)-backed document extraction pipeline for [txtai](https://github.com/neuml/txtai) and any Python framework built around the `__call__` convention.
+A [Kreuzberg](https://github.com/xberg-io/kreuzberg)-backed document extraction pipeline for [txtai](https://github.com/neuml/txtai) and any Python framework built around the `__call__` convention.
 
 `KreuzbergPipeline` replaces txtai's built-in `Textractor` (Apache Tika-based) with Kreuzberg's Rust-powered extraction stack, turning document paths into a `list[dict]` with `content` and `metadata` fields — surfacing title, MIME type, and page count that Tika flattens away.
 
@@ -176,11 +176,11 @@ Missing metadata fields are `None` (rather than omitted) to keep the dict shape 
 
 ## Related Projects
 
-- **[kreuzberg](https://github.com/kreuzberg-dev/kreuzberg)** — the extraction engine powering this package
-- **[langchain-kreuzberg](https://github.com/kreuzberg-dev/langchain-kreuzberg)** — Kreuzberg document loader for LangChain
-- **[llama-index-kreuzberg](https://github.com/kreuzberg-dev/llama-index-kreuzberg)** — LlamaIndex reader and node parser
-- **[kreuzberg-crewai](https://github.com/kreuzberg-dev/kreuzberg-crewai)** — CrewAI agent tool
-- **[kreuzberg-surrealdb](https://github.com/kreuzberg-dev/kreuzberg-surrealdb)** — SurrealDB ingestion connector
+- **[kreuzberg](https://github.com/xberg-io/kreuzberg)** — the extraction engine powering this package
+- **[langchain-kreuzberg](https://github.com/xberg-io/langchain-kreuzberg)** — Kreuzberg document loader for LangChain
+- **[llama-index-kreuzberg](https://github.com/xberg-io/llama-index-kreuzberg)** — LlamaIndex reader and node parser
+- **[kreuzberg-crewai](https://github.com/xberg-io/kreuzberg-crewai)** — CrewAI agent tool
+- **[kreuzberg-surrealdb](https://github.com/xberg-io/kreuzberg-surrealdb)** — SurrealDB ingestion connector
 
 ## License
 
